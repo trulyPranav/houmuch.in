@@ -17,8 +17,12 @@ const Landing = () => {
                         <p className="text-black font-inter font-[500] text-sm">5.0 Shopify Rating</p>
                     </div>
                 </div>
+                <div className="flex mt-8 pl-2 justify-around w-full md:w-1/2">
+                    <img src="/LandingAssets/Play_Store.png" alt="Get it on PlayStore!" className="w-[45%] h-auto max-w-full" />
+                    <img src="/LandingAssets/App_Store.png" alt="Get in on AppStore" className="w-[45%] h-auto max-w-full" />
+                </div>
             </div>
-            <div className="bg-transparent min-w-[50%] min-h-[#100vh/2] flex items-center justify-center">
+            <div className="bg-transparent min-w-[50%] min-h-[50vh] flex items-center justify-center">
                 <img src="/LandingAssets/leftTiltedPhone.png" alt="Left Tilted Phone" className="top-28 absolute z-10 left-1/2"/>
                 <img src="/LandingAssets/rightTiltedPhone.png" alt="Right Tilted Phone"  className="top-28 absolute left-[67%]"/>
             </div>
