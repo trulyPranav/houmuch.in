@@ -15,7 +15,8 @@ export default {
     },
     fontFamily: {
       inter: ["var(--font-inter)", "sans-serif"],
-      courgette: ["var(--font-courgette)", "sans-serif"]
+      courgette: ["var(--font-courgette)", "sans-serif"],
+      antonio: ["var(--font-antonio)", "sans-serif"]
     },
     fontWeight: {
       hairline: 10,
