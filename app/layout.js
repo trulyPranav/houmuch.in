@@ -17,13 +17,15 @@ const inter = Inter({
     "100",
     "500",
     "700"
-  ]
+  ],
+  subsets: ["latin"],
 })
 
 const courgette = Courgette({
   variable: "--font-courgette",
   weight: [ "400"
-  ]
+  ],
+  subsets: ["latin"],
 })
 
 export const metadata = {

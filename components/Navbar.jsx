@@ -66,7 +66,7 @@ const Navbar = () => {
           <Link
             key={index}
             href={item.link}
-            className="font-satoshi text-base group transition-all lg:ml-8 hover:text-gray-400"
+            className="font-inter text-base group transition-all lg:ml-8 hover:text-gray-400"
             onClick={() => mobilenav && setmobilenav(!mobilenav)}
           >
             {item.title}
@@ -76,7 +76,7 @@ const Navbar = () => {
 
       <div className="ml-auto flex justify-end">
         <button
-          className="px-4 py-2 bg-primary text-white font-semibold transition duration-300 ease-in-out hover:bg-primary-dark border-2 border-white rounded-[13px]"
+          className="px-4 py-2 bg-black text-white font-inter font-[800] transition duration-300 ease-in-out hover:bg-primary-dark border-2 border-white rounded-[13px]"
         >
           Get Started Now
         </button>
