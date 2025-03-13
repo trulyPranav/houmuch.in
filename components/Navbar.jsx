@@ -32,8 +32,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-screen text-white max-h-[90px] h-full flex items-center justify-between max-lg:pl-3 lg:px-[3.5rem] fixed top-0 z-[999] transition-all duration-300 bg-[#141212] ${
-        scrolled ? "bg-custom-dark/[.5] backdrop-blur" : "bg-transparent"
+      className={`w-screen text-white max-h-[90px] h-full flex items-center justify-between max-lg:pl-3 lg:px-[3.5rem] fixed top-0 z-[999] transition-all duration-300 ${
+        scrolled ? "bg-custom-dark/[.5] backdrop-blur" : "bg-[#141212]"
       }`}
     >
       {/* Logo on the leftmost side */}
