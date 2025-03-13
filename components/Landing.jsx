@@ -8,7 +8,7 @@ const Landing = () => {
                 <p className="text-[#FF3B30] text-6xl font-[400] font-courgette leading-snug">guarenteed</p>
                 <p className="text-black text-5xl font-[700] font-inter leading-snug">at lowest rates!</p>
                 <p className="text-black text-5xl font-[700] font-inter leading-snug">Download Now!!</p>
-                <div className="flex mt-8 justify-between w-auto">
+                <div className="flex mt-8 justify-stretch w-3/4">
                     <button className="px-[40] py-[15] bg-[#FF6D2C] text-white text-[14px] font-inter border-2 border-black border-b-[5px] border-r-[5px] rounded-[13px]">
                         EXPLORE MORE
                     </button>
