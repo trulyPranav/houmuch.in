@@ -13,14 +13,14 @@ const Landing = () => {
                         EXPLORE MORE
                     </button>
                     <div className="pl-[50] flex flex-col justify-center items-baseline">
-                        <img src="LandingAssets/fiveStars.png" alt="Five Stars!" className="w-[70%] h-auto" />
+                        <img src="/LandingAssets/fiveStars.png" alt="Five Stars!" className="w-[70%] h-auto" />
                         <p className="text-black font-inter font-[500] text-sm">5.0 Shopify Rating</p>
                     </div>
                 </div>
             </div>
             <div className="bg-transparent min-w-[50%] min-h-[#100vh/2] flex items-center justify-center">
-                <img src="LandingAssets/leftTiltedPhone.png" alt="Left Tilted Phone" className="top-28 absolute z-10 left-1/2"/>
-                <img src="LandingAssets/rightTiltedPhone.png" alt="Right Tilted Phone"  className="top-28 absolute left-[67%]"/>
+                <img src="/LandingAssets/leftTiltedPhone.png" alt="Left Tilted Phone" className="top-28 absolute z-10 left-1/2"/>
+                <img src="/LandingAssets/rightTiltedPhone.png" alt="Right Tilted Phone"  className="top-28 absolute left-[67%]"/>
             </div>
         </div>
     );
