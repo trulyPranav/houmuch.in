@@ -23,8 +23,8 @@ const Landing = () => {
                 </div>
             </div>
             <div className="bg-transparent min-w-[50%] min-h-[50vh] flex items-center justify-center">
-                <img src="/LandingAssets/leftTiltedPhone.png" alt="Left Tilted Phone" className="top-28 absolute z-10 left-1/2"/>
-                <img src="/LandingAssets/rightTiltedPhone.png" alt="Right Tilted Phone"  className="top-28 absolute left-[67%]"/>
+                <img src="/LandingAssets/leftTiltedPhone.png" alt="Left Tilted Phone" className="top-28 absolute z-10 left-1/2" />
+                <img src="/LandingAssets/rightTiltedPhone.png" alt="Right Tilted Phone" className="top-28 absolute left-[67%]" />
             </div>
         </div>
     );

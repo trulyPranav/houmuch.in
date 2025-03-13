@@ -2,7 +2,7 @@
 
 const Browse = () => {
     return (
-        <div className="bg-black min-h-screen">
+        <div id="about" className="bg-black min-h-screen">
 
         </div>
     );
