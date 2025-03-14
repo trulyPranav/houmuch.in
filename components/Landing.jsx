@@ -13,7 +13,7 @@ const Landing = () => {
                         EXPLORE MORE
                     </button>
                     <div className="pl-12 flex flex-col justify-center items-baseline w-1/2">
-                        <img src="/LandingAssets/fiveStars.png" alt="Five Stars!" className="w-[60%] xl:w-[70%] h-auto" />
+                        <img src="/LandingAssets/fiveStars.png" alt="Five Stars!" className="w-[100%] xl:w-[60%] h-auto" />
                         <p className="text-white font-inter font-[500] text-xs xl:text-sm">5.0 Shopify Rating</p>
                     </div>
                 </div>
