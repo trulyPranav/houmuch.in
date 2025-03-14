@@ -4,10 +4,10 @@ const Landing = () => {
     return (
         <div id="home" className="bg-black/[0.92] relative min-h-screen flex flex-col xl:flex-row justify-center xl:justify-normal">
             <div className="bg-transparent min-w-[50%] min-h-[#100vh/2] flex flex-col items-baseline justify-center pl-[3vw]">
-                <p className="text-white text-2xl xl:text-5xl font-[700] font-inter xl:leading-snug">Hotels & House Boats</p>
+                <p className="text-white text-3xl xl:text-5xl font-[700] font-inter xl:leading-snug">Hotels & House Boats</p>
                 <p className="text-[#FF3B30] text-4xl xl:text-6xl font-[400] font-courgette xl:leading-snug">guarenteed</p>
-                <p className="text-white text-2xl xl:text-5xl font-[700] font-inter xl:leading-snug">at lowest rates!</p>
-                <p className="text-white text-2xl xl:text-5xl font-[700] font-inter xl:leading-snug">Download Now!!</p>
+                <p className="text-white text-3xl xl:text-5xl font-[700] font-inter xl:leading-snug">at lowest rates!</p>
+                <p className="text-white text-3xl xl:text-5xl font-[700] font-inter xl:leading-snug">Download Now!!</p>
                 <div className="flex mt-8 justify-evenly xl:justify-stretch w-full xl:w-3/4">
                     <button className="px-6 xl:px-10 py-3 xl:py-4 bg-[#FF6D2C] text-white text-[9px] xl:text-[14px] font-inter border xl:border-2 border-black border-b-[3px] xl:border-b-[5px] border-r-[3px] xl:border-r-[5px] rounded-lg xl:rounded-[13px]">
                         EXPLORE MORE
