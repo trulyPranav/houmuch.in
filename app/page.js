@@ -6,7 +6,8 @@ import { useState, useEffect } from "react";
 import {
   Navbar,
   Landing,
-  Browse
+  Browse,
+  Views
 } from "../components"
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Navbar className="absolute top-0 left-0 w-full z-50" />
         <Landing />
         <Browse />
+        {/* <Views /> */}
       </>
     </div>
   );

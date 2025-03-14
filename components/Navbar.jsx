@@ -74,9 +74,9 @@ const Navbar = () => {
         ))}
       </div>
 
-      <div className="ml-auto flex justify-end">
+      <div className="ml-auto min-w-max xl:w-auto flex justify-end">
         <button
-          className="px-4 py-2 bg-black text-white font-inter font-[800] transition duration-300 ease-in-out hover:bg-primary-dark border-2 border-white rounded-[13px]"
+          className="px-2 py-1 xl:px-4 xl:py-2 bg-black text-xs xl:text-sm text-white font-inter font-[800] transition duration-300 ease-in-out hover:bg-primary-dark border-2 border-white rounded-lg xl:rounded-[13px]"
         >
           Get Started Now
         </button>

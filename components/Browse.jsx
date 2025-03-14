@@ -31,29 +31,27 @@ const Browse = () => {
 
   return (
     <div id="about" className="bg-black min-h-screen flex flex-col items-center justify-center">
-      <div className="flex text-white font-inter text-center w-[80vw] justify-evenly z-10">
+      <div className="flex text-white font-inter text-center w-[80vw] items-center justify-evenly z-10">
         <div>
-          <div className="font-bold text-3xl mb-4">0146</div>
-          <p className="font-light">
+          <div className="font-bold text-xl xl:text-3xl mb-4">0146</div>
+          <p className="font-light text-xs xl:text-base">
             Hotels, Resorts & HomeStays
-            <br />
-            that we are partnered with
           </p>
         </div>
         <div>
-          <div className="font-bold text-3xl mb-4">238</div>
-          <p className="font-light">Number of Bookings</p>
+          <div className="font-bold text-xl xl:text-3xl mb-4">238</div>
+          <p className="font-light text-xs xl:text-base">Number of Bookings</p>
         </div>
         <div>
-          <div className="font-bold text-3xl mb-4">1,394</div>
-          <p className="font-light">Number of Downloads</p>
+          <div className="font-bold text-xl xl:text-3xl mb-4">1,394</div>
+          <p className="font-light text-xs xl:text-base">Number of Downloads</p>
         </div>
       </div>
       
       {/* Apply fade-in animation dynamically when the element is visible */}
       <div
         ref={browseRef}
-        className={`text-white/[0.2] absolute font-antonio font-black text-[25rem] ${isVisible ? "fade-in-bottom" : "text-black"}`}
+        className={`text-white/[0.2] absolute font-antonio font-black text-[9rem] xl:text-[25rem] ${isVisible ? "fade-in-bottom" : "text-black"}`}
       >
         TRUST
       </div>
